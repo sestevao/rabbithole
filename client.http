@@ -1,0 +1,17 @@
+# GET http://localhost:3333 
+
+POST http://localhost:3333/uploads name="video.mp4" contentType="video/mp4"
+
+
+# PUT https://rabbithole-dev.adfa0ec082a27e09cdbe870f36b2b328.r2.cloudflarestorage.com/fb323ca9-73d4-4b67-adce-4cbf16998e21-aula.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=2af1d7a4f106eedf8aa73b0837e7e184%2F20240121%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240121T184026Z&X-Amz-Expires=600&X-Amz-Signature=c5852c095f2ad8e8c66e0e85fcd08de9b8b8130e93e968f883c791f2996b9635&X-Amz-SignedHeaders=host&x-id=PutObject
+# Content-Type: video/mp4
+
+# --MfnBoundary
+# Content-Disposition: form-data; name="files"; filename="video.mp4"
+# Content-Type: video/mp4
+
+# < ./video.mp4
+# --MfnBoundary--
+
+
+# GET http://localhost:3333/uploads/clrnug092000212ixtpgaz56x
